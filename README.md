@@ -46,4 +46,8 @@ git clone https://github.com/MuhHaikalBaadilah/GameSederhana_Hill_Climb_Racing.g
 ```
 
 ## Screenshot / Demo
-(Tambahkan screenshot atau GIF gameplay di sini.)
+<img width="1317" height="743" alt="Cuplikan layar 2026-10-11 191738" src="https://github.com/user-attachments/assets/73b2f2d7-70f8-496d-89fd-41610d985694" />
+<img width="1324" height="759" alt="Cuplikan layar 2026-10-11 191637" src="https://github.com/user-attachments/assets/cb0fd806-9ef7-4886-89f7-ff91deb332a2" />
+<img width="1318" height="752" alt="Cuplikan layar 2026-10-11 191626" src="https://github.com/user-attachments/assets/135a3f14-444f-4f1e-bff5-7ec7d54f8277" />
+<img width="1305" height="745" alt="Cuplikan layar 2026-10-11 191613" src="https://github.com/user-attachments/assets/d9867d3f-9fe9-4837-b6b0-dc8729c766d9" />
+
