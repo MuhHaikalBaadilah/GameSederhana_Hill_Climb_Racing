@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/car.gd" id="1_car"]
+
+[sub_resource type="ConvexPolygonShape2D" id="ConvexPolygonShape2D_chassis"]
+points = PackedVector2Array(-44, 8, -36, -15, -8, -29, 20, -29, 36, -13, 40, -1, 32, 8)
+
+[node name="Car" type="RigidBody2D"]
+script = ExtResource("1_car")
+
+[node name="ChassisShape" type="CollisionShape2D" parent="."]
+shape = SubResource("ConvexPolygonShape2D_chassis")
+
+[node name="FrontRay" type="RayCast2D" parent="."]
+position = Vector2(34, -4)
+target_position = Vector2(0, 55)
+enabled = true
+
+[node name="RearRay" type="RayCast2D" parent="."]
+position = Vector2(-34, -4)
+target_position = Vector2(0, 55)
+enabled = true
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(0.85, 0.85)
+position_smoothing_enabled = true
+position_smoothing_speed = 7.0

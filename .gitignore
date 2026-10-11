@@ -1,0 +1,10 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+exported/
+.android/
+ios/
+
+# Logs & local
+game.log
+*.log
